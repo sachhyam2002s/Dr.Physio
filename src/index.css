@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +45,7 @@ body{
     border-radius: 5em;
     border: none;
     padding: 5px 8px;
-    background-color: rgb(77, 77, 249);
+    background-color: rgb(76, 76, 255);
 }
 .navbar .appoint button a{
     text-decoration: none;

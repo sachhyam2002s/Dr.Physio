@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div class="container">
+    <div class="about-container">
         <div class="image">
             <img src="luisha3.png" alt=""/>
         </div>
@@ -15,9 +15,28 @@ export default function About() {
             <p><strong>Education:</strong> Bachelors of physical therapy, MA psycology
             </p>
         </div>
-        {/* <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.4395632216633!2d85.33855104746074!3d27.661290966382882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199389ab6be3%3A0xc1d49229fae44ee9!2sAasha%20Physiotherapy!5e1!3m2!1sen!2snp!4v1739791575925!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div> */}
+        <div className="section">
+        <div className="div1">
+            <h3>Successful Diagnosis</h3>
+            <p>Ensuring accurate and timely care.</p>
+            <h2>500+</h2>
+        </div>
+        <div className="div2">
+            <h3>Recover Success Rate</h3>
+            <p>Helping patients recover optimal health.</p>
+            <h2>90%</h2>
+        </div>
+        <div className="div3">
+            <h3>On-Time Consultation</h3>
+            <p>Your time is our priority.</p>
+            <h2>90%</h2>
+        </div>
+        <div className="div4">
+            <h3>Specialized Techniques</h3>
+            <p>Using advanced equipments and techniques.</p>
+            <h2>100+</h2>
+        </div>
+    </div>
 
     </div>
   )
